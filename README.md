@@ -2,15 +2,15 @@
 
 **哈工大 · 信息与通信工程 · 学术硕士（2026 级）**
 
-研究方向：**世界模型 × AI × 通信**（6G · 感知-通信-决策一体化）｜ 目标：苏杭 AI 算法岗
+方向：**多模态生成 × 世界模型**（扩散模型 · 视频生成 · 表征学习）｜ 目标：AI 算法岗（AIGC / 多模态）
 
 ---
 
 ## 🎯 我在做什么
 
-- 🧠 **科研**：世界模型驱动的复杂无人系统
-- 📖 **精读**：PyTorch 生态 / 世界模型 / 通信 AI 方向的开源项目，产出源码笔记与复现实验
-- 🔨 **工程**：把论文里的想法做成可运行、可演示的 Demo
+- 🧠 **科研**：世界模型驱动的复杂无人系统（实验室的 AI × 通信交叉方向）
+- 📖 **精读**：扩散模型 / 多模态生成 / 世界模型方向的主流开源项目，产出源码笔记与复现实验
+- 🔨 **工程**：把模型做成能跑、能部署、能演示的东西（训练 → 微调 → 推理服务）
 
 ---
 
@@ -26,15 +26,16 @@
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Diffusers](https://img.shields.io/badge/Diffusers-7C3AED?style=for-the-badge&logo=github&logoColor=white)
 
-**研究方向关键词**
+**技能关键词**
 
-`World Model` · `AI×Communication` · `感知-通信-决策一体化` · `6G` · `多模态`
+`Diffusion Models` · `LoRA / 参数高效微调` · `Multimodal` · `World Model` · `PyTorch` · `Model Deployment`
 
 **工程工具**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ---
 
@@ -43,7 +44,7 @@
 | 仓库 | 说明 |
 |------|------|
 | [**ai-reading-notes**](https://github.com/colorHur/ai-reading-notes) | AI 开源项目源码精读笔记 —— 架构分析 / 代码拆解 / 复现实验 / 对外沉淀 |
-| *整理中* | PyTorch 训练模板 · 世界模型复现 · AI×通信 Demo |
+| *整理中* | PyTorch 训练模板 · 扩散模型 LoRA 微调 + 推理服务 · 世界模型复现 |
 
 > 方法论：读透 1 个开源项目，胜过泛读 10 个。每个项目产出可讲、可复现的完整笔记。
 
@@ -62,9 +63,10 @@
 ## 🔥 最近在做什么
 
 - [x] 搭建 GitHub 作品集与开源精读笔记仓库
-- [ ] 精读并复现 **V-JEPA 2**（Meta · 非生成式视频世界模型）
-- [ ] 精读 **NVIDIA Sionna**（6G 链路级仿真 · 可微分）
-- [ ] 用 PyTorch 复现世界模型基线，跑通视频预测 Demo
+- [ ] 跑通 **diffusers** 第一个 pipeline，建立生成模型手感
+- [ ] 精读 **pytorch/examples**，沉淀一套自己的训练模板
+- [ ] **LoRA 微调 + 推理服务**：把实验做成能演示的项目
+- [ ] 单卡跑通 **EB-JEPA / V-JEPA 2**，补齐世界模型这条差异化叙事
 
 ---
 
