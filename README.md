@@ -99,8 +99,7 @@ GitHub 个人主页 README（华腾专用 · colorHur）
 
 ## 📫 联系我
 
-- 📧 Email: 
-- 🏫 
+- 💬 欢迎通过 GitHub 私信或 Issues 交流
 
 ---
 
